@@ -12,5 +12,6 @@ def reverse_each_word(sentence)
   my_sentence=[]
   sentence.collect do |sentence|
     my_sentence<<sentence.reverse 
-  end
+end
+  my_sentence.join
   
